@@ -1,7 +1,7 @@
 
 .ag-format-container {
     width: 1142px;
-    margin: 0 auto;
+    margin: 15px auto;
 }
 
   
@@ -19,7 +19,7 @@
   }
   
   .ag-maecenas_title {
-    padding: 100px 0 150px;
+    padding: 50px 0 150px;
     background-color: var(--primary-color);
     background-image: url(/assets/banner-image.gif);
     background-repeat: no-repeat;
@@ -30,7 +30,7 @@
     font-family: Heavitas, sans-serif;
     font-weight: 100;
     letter-spacing: .05em;
-    font-size: 40px;
+    font-size: 30px;
     color: #FFF;  
     position: relative;
   }
@@ -39,10 +39,10 @@
     height: 125px;
     width: 100%;
     background: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/animation-wave-shadow/images/wave.svg) repeat-x scroll 0 0;
-    -webkit-background-size: 1600px 198px;
-    -moz-background-size: 1600px 198px;
-    -o-background-size: 1600px 198px;
-    background-size: 1600px 198px;
+    -webkit-background-size: 1400px 140px;
+    -moz-background-size: 1400px 140px;
+    -o-background-size: 1400px 140px;
+    background-size: 1400px 140px;
 
     position: absolute;
     left: 0;
@@ -151,6 +151,22 @@
     flex-direction: row-reverse;
   }
   
+#heading{
+  font-size: 4rem;
+  margin: 0px;
+}
+
+#tag-line{
+  font-size: 1rem !important;
+  margin: 0px;
+  padding-bottom:  30px;
+}
+
+header span{
+  font-size: 0.9em;
+  font-style: italic;
+}
+
   .svg-img-block {
     display: none;
   }

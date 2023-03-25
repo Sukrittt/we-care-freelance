@@ -1,18 +1,39 @@
+
+main{
+    margin: 0px 200px ;
+}
+
 /* Main container */
 .main-container{
-    background-color: var(--secondary-color);
+    /* background-color: var(--secondary-color); */
     margin-left: 16vw;
     padding: 2em;
 }
+.main-container section:first-child{
+    font-size: 1.3rem;
+    text-align: center;
+}
+
 .main-container section{
-    margin-bottom: 3em;
+    margin-bottom: 3.5em;
 }
 .main-container span{
     font-family: inherit;
 }
-.paragraph{
-    width: 70vw;   
+#vision{
+    font-size:1.3em;
+    padding-bottom: 10px;
+    font-weight: bold;
 }
+/* .paragraph{
+    width: 70vw;   
+} */
+
+section > p, section li{
+    font-size: 1.1em;
+}
+
+
 .img-container{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 5px;
@@ -20,7 +41,10 @@
 
 
 .card-container{
-    margin-bottom: 4em;
+    width: fit-content;
+    margin: auto ;
+    margin-bottom: 4em !important;
+
     box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
     border-radius: 16px;
 }
@@ -37,6 +61,7 @@
     display: flex;
     align-items: center;
     gap: 10px;
+    padding: 0px 20px;
 }
 .card-container .card-flex p{
     padding: .75em;
@@ -62,11 +87,12 @@
 }
 .button-flex{
     display: flex;
-    gap: 5px;
+    flex-direction: column;
     align-items: center;
 }
 .card-flex img{
     margin: 1.5em;
+    width: 40%;
 }
 .tribute-flex{
     display: flex;

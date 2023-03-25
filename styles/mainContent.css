@@ -1,0 +1,19 @@
+/* Main container */
+.main-container{
+    background-color: var(--background-color);
+    margin-left: 16vw;
+    height: 100vh;
+    padding: 2em;
+}
+.main-container section{
+    margin-bottom: 3em;
+}
+.main-container span{
+    font-size: 1.35rem;
+}
+.paragraph{
+    width: 70vw;   
+}
+.img-container{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

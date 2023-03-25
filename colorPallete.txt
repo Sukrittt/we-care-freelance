@@ -1,3 +1,0 @@
-primary-color = #daa11e
-secondary-color = #2a6439
-background-color = #cfc5ab 

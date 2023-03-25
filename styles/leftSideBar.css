@@ -1,15 +1,20 @@
 /* Leftside bar */
 .left-sidebar{
     float: left;
-    position: fixed;
+    position: sticky;
+    top: -.1em;
     padding: .5em;
     height: 100vh;
     min-width: 10vw;
     width: 15vw;
     max-width: 20vw;
     background-color: var(--primary-color);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 .left-sidebar > ul{
+    display: flex;
+    flex-direction: column;
+
     padding: 1em 0;
     cursor: pointer;
     margin: 0;
@@ -46,4 +51,22 @@
     font-size: .9rem;
     letter-spacing: .25em;
     transition: all 300ms;
+}
+
+
+/* Media Query */
+@media screen and (width <= 1200px) {
+    .left-sidebar{
+        position: relative;
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+        margin-bottom: 2em;
+        padding: 0;
+    }
+    .left-sidebar > ul{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 1em;
+    }
 }

@@ -2,11 +2,27 @@
 :root{
     --primary-font: 'Nunito Sans', sans-serif;
 
-    --primary-color: #daa11e;
-    --secondary-color: #2a6439;
+    --primary-color: #2b2a2a;
+    --secondary-color: whitesmoke;
     --background-color: #cfc5ab; 
     --leftsidebar-color: #fff2d3;
+}
+::-webkit-scrollbar{
+    width : .75em;
+}
 
+::-webkit-scrollbar-track{
+    background: hsl(0, 0%, 12%);
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 100vw;
+    background: hsl(0, 0%, 67%);
+    border: 2px solid black;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: hsl(0, 0%, 44%);
 }
 body{
     margin: 0;
@@ -16,5 +32,5 @@ body{
 .flex{
     display: flex;
     gap: 2em;
+    justify-content: space-evenly;
 }
-

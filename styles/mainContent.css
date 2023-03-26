@@ -20,6 +20,7 @@ main{
 .main-container section{
     margin-bottom: 3.5em;
 }
+
 .main-container span{
     font-family: inherit;
 }
@@ -32,7 +33,7 @@ main{
     width: 70vw;   
 } */
 
-section > p, section li{
+section > p, section li, section span{
     font-size: 1.1em;
 }
 
@@ -110,18 +111,30 @@ section > p, section li{
 
 
 /* Media Query */
+@media screen and (width<=1400px){
+    main{
+        padding: 0 120px;
+    }
+}
 @media screen and (width <= 1200px) {
     .main-container{
         margin: 0;
     }
 }
 @media screen and (width <= 870px) {
+    main{
+        padding:0 80px;
+    }
     .main-container{
-        margin: 0;
+        padding: 0em;
+    }
+    .card-container{
+        margin: 0px;
     }
     .card-flex{
         padding: 1em;
     }
+
     .button-flex{
         flex-direction: column;
         align-items: flex-start;
@@ -139,15 +152,57 @@ section > p, section li{
     .paragraph{
         width: 80vw;
     }
+    main{
+        padding: 0px 50px;
+    }
+    .img-container{
+        margin:15px auto;
+        width: 80%;
+    }
 }
+
 @media screen and (width <= 550px) {
+    main{
+        padding: 0 35px;
+    }
     .card-flex{
         flex-direction: column;
     }
-    .card-container > .card-flex{
-        align-items: flex-start;
+    .flex{
+        gap: 0em;
     }
+    .main-container{
+        font-size: 15px;
+    }
+
     .card-container > .card-flex > p{
         padding: 0;
+    }
+    .card-flex img{
+        width: 60%;
+        margin: 0.5em;
+    }
+    .button-flex{
+        align-items: center;
+    }
+
+    .main-container section:first-child{
+        font-size: 1.1rem;
+    }
+
+    .card-container > p {
+        font-size: 1.3em;
+    }
+}
+
+@media screen and (width <= 400px){
+    main{
+    padding: 0 25px;
+    }
+    section > p, section li, section span{
+        font-size: 1em;
+    }
+    .main-container section{
+        margin-bottom: 2.5em;
     }
 }

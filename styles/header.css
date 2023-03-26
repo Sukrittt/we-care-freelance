@@ -202,7 +202,43 @@ header span{
     }
   }
   
-  
+  /*Media query for the font size*/
+
+  @media screen and (width <= 1200px) {
+    .ag-format-container{
+      font-size: 27px;
+    }
+  }
+
+  @media screen and (width <= 870px){
+    #heading{
+      font-size: 3.5em;
+    }
+    .ag-format-container{
+      font-size: 24px;
+    }
+  }
+
+  @media screen and (width <= 650px){
+    .ag-format-container{
+      font-size: 20px;
+    }
+
+  }
+  @media screen and (width <= 500px){
+    .ag-format-container{
+      font-size: 18px;
+      margin: 25px auto;
+    }
+    header span{
+      font-size: 1em;
+    }
+  }
+  @media screen and (width <= 350px){
+    .ag-format-container{
+      font-size: 15px;
+    }
+  }
 
   /* Media Query */
 
@@ -214,6 +250,22 @@ header span{
   @media screen and (width <=550px) {
     .ag-maecenas_title{
       font-size: 20px;
+      padding-bottom: 125px;
+    }
+
+    .ag-maecenas_title:before{
+      background-size: 900px 120px;
+      height: 110px;
+    }
+  }
+  @media screen and (width <=350px) {
+    .ag-maecenas_title{
+      padding-bottom: 100px;
+    }
+
+    .ag-maecenas_title:before{
+      background-size: 900px 100px;
+      height: 90px;
     }
   }
 

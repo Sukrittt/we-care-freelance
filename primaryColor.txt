@@ -1,9 +1,13 @@
+Yellow and Green Theme
+
 --primary-color:
-1. #4C1A57
-2. #2176AE
-3. #0B2545
-4. #E0A458
-5. #00ABE7
-6. #DD6E42
+
+1. #cb9d23 (yellow)
+2. #edcf6f (yellow)
+3. #e1ad01 (yellow)
+
+3. #265630 (green)
+4. #94a05e (green)
+5. #9acd32 (green)
 
 Visit https://coolors.co/ for more color palettes.

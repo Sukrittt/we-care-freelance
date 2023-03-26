@@ -1,11 +1,16 @@
 
+ @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+ @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+
+
+
+
 .ag-format-container {
     width: 1142px;
-    margin: 15px auto;
+    margin: 35px auto;
 }
 
-  
-  
   @font-face {
     font-family: Heavitas;
     src: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_fonts/Heavitas/Heavitas.eot);
@@ -19,9 +24,9 @@
   }
   
   .ag-maecenas_title {
-    padding: 50px 0 150px;
-    background-color: var(--primary-color);
-    background-image: url(/assets/banner-image.gif);
+    padding: 20px 0 150px;
+    /* background-color: linear-gradient(#4C1A57,#0B2545); */
+    background-image: linear-gradient(#4C1A57,#0B2545);
     background-repeat: no-repeat;
     object-fit: cover;
     background-position: bottom;
@@ -150,21 +155,26 @@
     -ms-flex-direction: row-reverse;
     flex-direction: row-reverse;
   }
-  
+
+
+
 #heading{
-  font-size: 4rem;
+  font-size: 7rem;
+  line-height: 1em;
   margin: 0px;
+  font-family: 'Dancing Script', cursive;
 }
 
 #tag-line{
-  font-size: 1rem !important;
+  font-size: 1em !important;
   margin: 0px;
-  padding-bottom:  30px;
+  padding-bottom: 45px;
+  font-family: 'Dancing Script', cursive;
 }
 
 header span{
-  font-size: 0.9em;
-  font-style: italic;
+  font-family: 'Noto Sans Lao', sans-serif;
+  font-size: 1.3em;
 }
 
   .svg-img-block {

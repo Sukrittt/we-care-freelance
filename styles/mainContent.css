@@ -4,7 +4,7 @@
 
 main{
     padding: 0px 180px;
-    background-color: var(--background-color);
+    background-color: #f7ffa9;
 }
 
 /* Main container */
@@ -48,17 +48,24 @@ section > p, section li, section span{
     margin: 30px ;
     margin-bottom: 4em !important;
 
-    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+    background-image: linear-gradient(35deg, #1bac3ac2, #3adb5338);
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 1px 4px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 5px 5px;
     border-radius: 16px;
 }
 .card-container > p{
-    background-color: var(--primary-color);
+    background-color: #31ab4f;
+    box-shadow: 0px 2px 3px #00000060;
+
     color: white;
     font-size: 1.5rem;
-    padding: .15em;
+    font-weight: bold;
+
     margin: 0;
+    padding: .25em;
     padding-left: .5em;
-    border-radius: 4px;
+
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
 }
 .card-flex{
     display: flex;
@@ -81,12 +88,13 @@ section > p, section li, section span{
     font-size: .9rem;
     text-decoration: none;
     border-radius: 4px;
-    background-color: var(--primary-color);
+    /* background-color:rgb(236 175 0 / 87%); */
+    background-color:rgb(48 47 41);
     color: white;
     transition: all 150ms;
 }
 .card-container .card-flex a:hover {
-    opacity: .95;
+    opacity: .9;
 }
 .button-flex{
     display: flex;

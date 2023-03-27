@@ -29,6 +29,7 @@ body{
     margin: 0;
     box-sizing: border-box;
     font-family: var(--primary-font);
+    background-color: #f7ffa9;
 }
 .flex{
     display: flex;

@@ -160,10 +160,13 @@
 
 
 #heading{
-  font-size: 7rem;
-  line-height: 1em;
+  line-height: 1.5em;
   margin: 0px;
-  font-family: 'Dancing Script', cursive;
+}
+
+#heading img{
+  width: 38%;
+  /* padding-left: 60px; */
 }
 
 #tag-line{
@@ -212,8 +215,8 @@ header span{
   }
 
   @media screen and (width <= 870px){
-    #heading{
-      font-size: 3.5em;
+    #heading img{
+      width: 42%;
     }
     .ag-format-container{
       font-size: 24px;
@@ -221,12 +224,18 @@ header span{
   }
 
   @media screen and (width <= 650px){
+    #heading img{
+      width: 45%;
+    }
     .ag-format-container{
       font-size: 20px;
     }
 
   }
   @media screen and (width <= 500px){
+    #heading img{
+      width: 50%;
+    }
     .ag-format-container{
       font-size: 18px;
       margin: 25px auto;
@@ -236,6 +245,9 @@ header span{
     }
   }
   @media screen and (width <= 350px){
+    #heading img{
+      width: 60%;
+    }
     .ag-format-container{
       font-size: 15px;
     }

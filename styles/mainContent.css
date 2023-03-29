@@ -197,12 +197,12 @@ section > p, section li, section span{
         align-items: center;
     }
 
-    .main-container section:first-child{
-        font-size: 1.1rem;
+    .main-container section:first-child, .heading_2{
+        font-size: 1.1rem !important;
     }
 
     .card-container > p {
-        font-size: 1.3em;
+        font-size: 1.3em !important;
     }
 }
 
@@ -211,9 +211,9 @@ section > p, section li, section span{
     padding: 0 25px;
     }
     section > p, section li, section span{
-        font-size: 1em;
+        font-size: 1em !important;
     }
     .main-container section{
-        margin-bottom: 2.5em;
+        margin-bottom: 2.5em !important;
     }
 }

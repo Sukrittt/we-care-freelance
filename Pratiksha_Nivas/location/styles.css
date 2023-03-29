@@ -1,8 +1,13 @@
 .subheading{
     margin-bottom: .3em;
-    font-size: 1.2em;
+    font-size: 1.3em;
     font-weight: bold;
 }
+
+section li, section > p, section span{
+    font-size: 1.2em;
+}
+
 .main-container > section .paragraph{
     margin: .2em;
 }
@@ -18,4 +23,10 @@ a{
 }
 a:hover{
     color: #0a6ed2;
+}
+
+@media screen and (width<=700px){
+    section li, section > p, section span{
+        font-size: 1.05em;
+    }
 }

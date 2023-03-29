@@ -1,10 +1,14 @@
+.heading_2{
+  text-align: center;
+}
+
 .card-grid{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     justify-items: center;
     gap: 2em;
 
-    margin: 2em 0;
+    margin: 3em 0;
 }
 .main-container .card-grid a{
   text-decoration: none;
@@ -16,18 +20,19 @@
     width: 190px;
     height: 100px;
     
-    background: rgba(217, 217, 217, 0.58);
-    background: #f7b92b;
+    background-image: linear-gradient(45deg, #32b548, #34dc50ba);
+    /* background: rgb(247 185 43); */
     color: white;
     
-    border: 1px solid white;
+    /* border: 1px solid white; */
     box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
     backdrop-filter: blur(6px);
     border-radius: 17px;
     
     text-align: center;
     cursor: pointer;
-    transition: all 0.5s;
+    transition: all 0.2s;
+    transition-timing-function: linear;
     
     display: flex;
     align-items: center;
@@ -36,9 +41,8 @@
   }
   
   .card:hover {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     transform: scale(1.05);
-    background: #f7c037;
   }
   
   .card:active {

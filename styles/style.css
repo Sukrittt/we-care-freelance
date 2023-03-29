@@ -36,3 +36,15 @@ body{
     gap: 2em;
     justify-content: space-evenly;
 }
+
+.block{
+    display: block;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.list-style-none{
+    list-style: none;
+}

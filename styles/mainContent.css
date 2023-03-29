@@ -12,9 +12,15 @@ main{
     margin-left: 17vw;
     padding: 2em;
 }
+
+.main-container section:first-child{
+    margin-bottom: 40px !important;
+}
 .main-container > .first-child-section, .main-container section:first-child span{
     font-size: 1.3rem;
     text-align: center;
+    font-weight: bold;
+    font-style: italic;
 }
 
 .main-container section{

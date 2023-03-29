@@ -1,0 +1,18 @@
+main{
+    padding: 0px 100px;
+}
+.image-container{
+    float: right;
+    display: flex;
+    flex-direction: column;
+    gap: 8em;
+    height: 100vh;
+    justify-content: center;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.image-container img{
+    height: 180px;
+    width: 180px;
+}

@@ -1,0 +1,6 @@
+.main-container section:nth-child(2) > p{
+    text-align: center;
+    font-style: italic;
+    opacity: .95;
+
+}

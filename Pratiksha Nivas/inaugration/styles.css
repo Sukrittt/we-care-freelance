@@ -1,0 +1,16 @@
+.main-container section{
+    margin-bottom: 2.5em;
+}
+.image-flex-container{
+    display: flex;
+    justify-content: space-around;
+}
+.image-flex-container div p{
+    width: 20em;
+    opacity: .95;
+}
+.image-flex-container-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

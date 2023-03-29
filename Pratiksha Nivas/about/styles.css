@@ -1,0 +1,16 @@
+.subheading{
+    margin-bottom: 0;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.image-grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    column-gap: 5em;
+    row-gap: 2em;
+}
+
+.image-grid-container div img{
+    height: 250px;
+}

@@ -58,7 +58,7 @@
 
 
 .nav-image{
-    height: 15px !important;
+    height: 15px;
 }
 /*Animation to nav image*/
 .left-sidebar > ul > li:hover .nav-image{

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
 
+
 :root{
     --primary-font: 'Nunito Sans', sans-serif;
 
@@ -13,7 +14,7 @@
 }
 
 ::-webkit-scrollbar-track{
-    background: hsl(0, 0%, 12%);
+    background: hsla(0, 0%, 12%, 0.918);
 }
 
 ::-webkit-scrollbar-thumb{

@@ -1,0 +1,45 @@
+#top-nav{
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+#top-nav ul{
+    margin: 0px;
+    padding: 0;
+    display: flex;
+    column-gap: 12px !important;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#top-nav li{
+    padding:12px 0px;
+}
+
+#top-nav a{
+    padding: 8px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: white;
+    margin: 10px 0;
+    
+    background-color: #48c5677a; 
+    transition: 0.2s;
+}
+
+.active-top-nav, #top-nav a:hover {
+    background-color: #31ab4f !important;
+}
+
+@media screen and (width<=500px) {
+    #top-nav li{
+        padding:8px 0px;
+    }
+    
+    #top-nav a{
+        padding: 6px 12px;
+        font-size: 1.1em;
+    }
+    
+}

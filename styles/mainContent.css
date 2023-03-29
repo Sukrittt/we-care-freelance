@@ -121,6 +121,7 @@ section > p, section li, section span{
 }
 
 
+
 /* Media Query */
 @media screen and (width<=1400px){
     main{
@@ -130,6 +131,13 @@ section > p, section li, section span{
 @media screen and (width <= 1200px) {
     .main-container{
         margin: 0;
+    }
+    .left-sidebar{
+        float: none;
+    }
+
+    #top-nav{
+        margin-top: 0 !important;
     }
 }
 @media screen and (width <= 870px) {
@@ -211,7 +219,7 @@ section > p, section li, section span{
     padding: 0 25px;
     }
     section > p, section li, section span{
-        font-size: 1em !important;
+        font-size: 0.9em !important;
     }
     .main-container section{
         margin-bottom: 2.5em !important;

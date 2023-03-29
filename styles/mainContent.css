@@ -12,7 +12,7 @@ main{
     margin-left: 17vw;
     padding: 2em;
 }
-.main-container section:first-child{
+.main-container > .first-child-section{
     font-size: 1.3rem;
     text-align: center;
 }
@@ -24,14 +24,11 @@ main{
 .main-container span{
     font-family: inherit;
 }
+
 #vision{
-    font-size:1.3em;
-    padding-bottom: 10px;
+    font-size:1.5em;
     font-weight: bold;
 }
-/* .paragraph{
-    width: 70vw;   
-} */
 
 section > p, section li, section span{
     font-size: 1.1em;

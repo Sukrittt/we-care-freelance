@@ -24,7 +24,7 @@ main{
 .main-container span{
     font-family: inherit;
 }
-#vision{
+.heading_2, #vision{
     font-size:1.3em;
     padding-bottom: 10px;
     font-weight: bold;

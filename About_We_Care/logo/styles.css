@@ -1,0 +1,9 @@
+.logo-container{
+    margin-top: 2em;
+}
+
+.logo-container img{
+    background-color: #86bd35;
+
+    padding: 1em;
+}

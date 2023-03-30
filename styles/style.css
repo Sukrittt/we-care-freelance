@@ -4,10 +4,9 @@
 :root{
     --primary-font: 'Nunito Sans', sans-serif;
 
-    --primary-color: #2b2a2a;
-    --secondary-color: #F9F54B;
-    --background-color: #fdfdfd;
-    --leftsidebar-color: #fff2d3;
+    --primary-color: #f7c037;
+    --secondary-color: #31ab4f;
+    --background-color: #f7ffa9;
 }
 ::-webkit-scrollbar{
     width : .75em;

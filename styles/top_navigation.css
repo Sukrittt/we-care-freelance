@@ -29,7 +29,7 @@
 }
 
 .active-top-nav, #top-nav a:hover {
-    background-color: #31ab4f !important;
+    background-color: var(--secondary-color) !important;
 }
 
 @media screen and (width<=500px) {

@@ -1,0 +1,31 @@
+Yellow and Green Theme
+
+--primary-color:
+
+1. #f7c037 (yellow)
+2. rgb(209 145 0 / 91%)
+
+--seconday-color:
+
+3. #31ab4f (green)
+4. #1bac3ac2 
+
+background color : #f7ffa9 (light yellowish)
+header gradient : #6bb442, #ffe700 (green -> yellow)
+
+Visit https://coolors.co/ for more color palettes.
+
+
+Fonts Used : Nunito, Dancing Script
+
+font-family: 'Dancing Script', cursive;
+font-family: 'Nunito', sans-serif;
+
+--primary-font : Nunito
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+Logo tag line font : Dancing Script
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');

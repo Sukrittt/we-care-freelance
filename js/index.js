@@ -108,3 +108,14 @@ function handleMouseLeave4(event) {
     navItem4.setAttribute("visited", "false");
   }
 }
+
+
+
+/*Adding the links when window size less than 1200px */
+
+if( window.innerWidth < 1200 ){
+  document.querySelector('#nav-link-1 a').setAttribute('href', '../../About_We_Care/origin/');
+  document.querySelector('#nav-link-2 a').setAttribute('href', '../../programmes/Education/');
+  document.querySelector('#nav-link-3 a').setAttribute('href', '../../Pratiksha_Nivas/about/');
+  document.querySelector('#nav-link-4 a').setAttribute('href', '../../Donation/donations/');
+}

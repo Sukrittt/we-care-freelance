@@ -4,7 +4,7 @@
 
 .card-grid{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
     justify-items: center;
     gap: 2em;
 
@@ -41,7 +41,7 @@
   }
   
   .card:hover {
-    /* border: 1px solid black; */
+    border: 1px solid black;
     transform: scale(1.05);
   }
   

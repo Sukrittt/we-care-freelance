@@ -2,25 +2,33 @@
     position: sticky;
     top: 6em;
 }
+
+.nav-item{
+    backdrop-filter:blur(1.5px);
+    /* background-color: #e2af2c; */
+    padding: 0px 20px 20px 0;
+}
+
 .nav-links-hover-section{
     position: absolute;
-    left: 15vw;
+    left: 15.5vw;
 }
 
 .nav-links-hover-section .nav-item > ul{
     display: flex;
     flex-direction: column;
     list-style-type: none;
+    padding-left: 20px;
     gap: 2em;
 }
 
 .nav-links-hover-section .nav-item > ul > li > a{
     text-decoration: none;
-    color: black;
+    color: white;
     background-color: #f7c037;
     transition: all 300ms;
     border-radius: 8px;
-    padding: .5em;
+    padding: .5em .8em;
 }
 .nav-links-hover-section .nav-item > ul > li > a:hover{
     background-color: #e2af2c;
@@ -78,9 +86,11 @@ for vice-versa */
     .nav-bar{
         position: relative;
         margin-top: -5em;
-        margin-bottom: 5em;
+        margin-bottom: 8em;
     }
     .nav-links-hover-section{
+        display: none;
+
         left: 0;
         top: 15vw;
     }

@@ -1,12 +1,13 @@
-main{
-    padding: 0px 100px;
-}
-.image-container{
-    float: right;
-    padding-left: 10px;
-    margin-top: 5em;
-}
-
 .main-container{
     margin-bottom: 3em;
+}
+
+@media screen and (width <= 900px) {
+    .image-flex{
+        flex-direction: column-reverse;
+        align-items: flex-start !important;
+    }
+    .image-flex img{
+        margin-top: 5em;
+    }
 }

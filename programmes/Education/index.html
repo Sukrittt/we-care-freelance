@@ -12,6 +12,9 @@
     <link rel="stylesheet" href="../../styles/mainContent.css" />
     <link rel="stylesheet" href="../../styles/header.css" />
     <link rel="stylesheet" href="../../styles/footer.css" />
+    <link rel="stylesheet" href="../../styles/nav-hover.css" />
+
+    <script src="../../js/index.js" defer></script>
 
 
   </head>
@@ -219,73 +222,165 @@
     </header>
 
     <main>
-      <aside class="left-sidebar">
-        <ul>
-          <li>
-            <a class="nav-links" href="#">About We Care </a>
-            <img
-              class="nav-image"
-              height="15px"
-              src="../../assets/right-arrow.png"
-              alt=""
-            />
-          </li>
-          <li>
-            <a class="nav-links" href="#">Programmers </a>
-            <img
-              class="nav-image"
-              height="15px"
-              src="../../assets/right-arrow.png"
-              alt=""
-            />
-          </li>
-          <li>
-            <a class="nav-links" href="#">Pratiksha Nivas</a
-            ><img
-              class="nav-image"
-              height="15px"
-              src="../../assets/right-arrow.png"
-              alt=""
-            />
-          </li>
-          <li>
-            <a class="nav-links" href="#">Donations</a
-            ><img
-              class="nav-image"
-              height="15px"
-              src="../../assets/right-arrow.png"
-              alt=""
-            />
-          </li>
-          <li>
-            <a class="nav-links" href="#">Newsletters</a
-            ><img
-              class="nav-image"
-              height="15px"
-              src="../../assets/right-arrow.png"
-              alt=""
-            />
-          </li>
-          <li>
-            <a class="nav-links" href="#">Accounts</a
-            ><img
-              class="nav-image"
-              height="15px"
-              src="../../assets/right-arrow.png"
-              alt=""
-            />
-          </li>
-          <li>
-            <a class="nav-links" href="#">FAQs</a
-            ><img
-              class="nav-image"
-              src="../../assets/right-arrow.png"
-              height="15px"
-              alt=""
-            />
-          </li>
-        </ul>
-      </aside>
+      <div class="nav-bar">
+        <aside class="left-sidebar">
+          <ul>
+            <li id="nav-link-1">
+              <a class="nav-links">About We Care</a>
+              <img
+                class="nav-image"
+                src="https://i.postimg.cc/9fgm4vMC/right-arrow.png"
+                alt="right-arrow"
+              />
+            </li>
+            <li id="nav-link-2">
+              <a class="nav-links">Programmes</a>
+              <img
+                class="nav-image"
+                src="https://i.postimg.cc/9fgm4vMC/right-arrow.png"
+                alt="right-arrow"
+              />
+            </li>
+            <li id="nav-link-3">
+              <a class="nav-links">Pratiksha Nivas</a
+              ><img
+                class="nav-image"
+                src="https://i.postimg.cc/9fgm4vMC/right-arrow.png"
+                alt="right-arrow"
+              />
+            </li>
+            <li id="nav-link-4">
+              <a class="nav-links">Donations</a
+              ><img
+                class="nav-image"
+                src="https://i.postimg.cc/9fgm4vMC/right-arrow.png"
+                alt="right-arrow"
+              />
+            </li>
+            <li>
+              <a class="nav-links" href="./News_Letter/">Newsletters</a
+              ><img
+                class="nav-image"
+                src="https://i.postimg.cc/9fgm4vMC/right-arrow.png"
+                alt="right-arrow"
+              />
+            </li>
+            <li>
+              <a class="nav-links" href="#">Accounts</a
+              ><img
+                class="nav-image"
+                src="https://i.postimg.cc/9fgm4vMC/right-arrow.png"
+                alt="right-arrow"
+              />
+            </li>
+            <li>
+              <a class="nav-links" href="#">FAQs</a
+              ><img
+                class="nav-image"
+                src="https://i.postimg.cc/9fgm4vMC/right-arrow.png"
+                height="25px"
+                alt=""
+              />
+            </li>
+          </ul>
+        </aside>
+        <div class="nav-links-hover-section">
+          <div class="nav-item nav-item-1" id="nav-item-1" visited="false">
+            <ul>
+              <li>
+                <a class="nav-links" href="../../About_We_Care/origin/">Origin</a>
+              </li>
+              <li>
+                <a class="nav-links" href="../../About_We_Care/logo/"
+                  >We Care Logo</a
+                >
+              </li>
+              <li>
+                <a class="nav-links" href="../../About_We_Care/patrons/">Our Patrons</a>
+              </li>
+              <li>
+                <a class="nav-links" href="../../About_We_Care/principles/">Principles</a>
+              </li>
+              <li>
+                <a class="nav-links" href="../../About_We_Care/vision/">Vision and Mission</a>
+              </li>
+              <li>
+                <a class="nav-links" href="../../About_We_Care/founders/">Founding Trustees</a>
+              </li>
+              <li>
+                <a class="nav-links" href="../../About_We_Care/present/">Present Trustees</a>
+              </li>
+              <li>
+                <a class="nav-links" href="../../About_We_Care/legal/">Legal Information</a>
+              </li>
+            </ul>
+          </div>
+          <div class="nav-item nav-item-2" id="nav-item-2" visited="false">
+            <ul>
+              <li>
+                <a class="nav-links" href="./"
+                  >Education</a
+                >
+              </li>
+              <li>
+                <a class="nav-links" href="../Challenged/"
+                  >Challenged (Disability)</a
+                >
+              </li>
+              <li>
+                <a class="nav-links" href="../Health_Care/"
+                  >Health Care</a
+                >
+              </li>
+              <li>
+                <a
+                  class="nav-links"
+                  href="../Capability_building/"
+                  >Capacity Building</a
+                >
+              </li>
+              <li>
+                <a class="nav-links" href="../Empowerment/"
+                  >Empowerment</a
+                >
+              </li>
+              <li>
+                <a class="nav-links" href="../Relief/">Relief</a>
+              </li>
+              <li>
+                <a class="nav-links" href="../Other/">Other</a>
+              </li>
+            </ul>
+          </div>
+          <div class="nav-item nav-item-3" id="nav-item-3" visited="false">
+            <ul>
+              <li>
+                <a class="nav-links" href="../../Pratiksha_Nivas/about/"
+                  >About Pratiksha Nivas</a
+                >
+              </li>
+              <li>
+                <a class="nav-links" href="../../Pratiksha_Nivas/inaugration/"
+                  >Inaugration</a
+                >
+              </li>
+              <li>
+                <a class="nav-links" href="../../Pratiksha_Nivas/location/"
+                  >Location</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="nav-item nav-item-4" id="nav-item-4" visited="false">
+            <ul>
+              <li><a class="nav-links" href="#">Donations</a></li>
+              <li>
+                <a class="nav-links" href="#">Memorial and Corpus Funds</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
       <div class="main-container">
 

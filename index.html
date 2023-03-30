@@ -13,8 +13,6 @@
     <link rel="stylesheet" href="styles/header.css" />
     <link rel="stylesheet" href="styles/footer.css" />
     <link rel="stylesheet" href="styles/nav-hover.css" />
-
-    <script src="js/index.js" defer></script>
   </head>
 
   <body>
@@ -264,7 +262,7 @@
               />
             </li>
             <li>
-              <a class="nav-links" href="#">Accounts</a
+              <a class="nav-links" href="https://docs.google.com/document/d/1uoczCfpge8NmqQaF5rVoJKAzzGjxh5mRenRlRQ54HyA/edit">Accounts</a
               ><img
                 class="nav-image"
                 src="https://i.postimg.cc/9fgm4vMC/right-arrow.png"
@@ -272,7 +270,7 @@
               />
             </li>
             <li>
-              <a class="nav-links" href="#">FAQs</a
+              <a class="nav-links" href="https://docs.google.com/document/d/1E6-8IYnwpchHhUwIlEge03ojjv8NKMpVu7aGiZHgZ3A/edit" target="_blank">FAQs</a
               ><img
                 class="nav-image"
                 src="https://i.postimg.cc/9fgm4vMC/right-arrow.png"
@@ -500,5 +498,15 @@
         <span> Since 1999</span>
       </div>
     </footer>
+
+    <script>
+      if( window.innerWidth < 1200 ){
+        document.querySelector('#nav-link-1 a').setAttribute('href', './About_We_Care/origin/');
+        document.querySelector('#nav-link-2 a').setAttribute('href', './programmes/Education/');
+        document.querySelector('#nav-link-3 a').setAttribute('href', './Pratiksha_Nivas/about/');
+        document.querySelector('#nav-link-4 a').setAttribute('href', './Donation/donations/');
+      }
+    </script>
+    <script src="js/index.js" defer></script>
   </body>
 </html>

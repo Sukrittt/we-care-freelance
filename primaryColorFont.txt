@@ -2,7 +2,7 @@ Yellow and Green Theme
 
 --primary-color:
 
-1. #f7c037 (yellow)
+1. #f7be32 (yellow)
 2. rgb(209 145 0 / 91%)
 
 --seconday-color:

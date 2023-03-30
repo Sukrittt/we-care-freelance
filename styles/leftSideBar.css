@@ -8,6 +8,10 @@
     width: 15vw;
     max-width: 20vw;
 }
+.left-sidebar:active{
+    background-color: var(--primary-color);
+}
+
 .left-sidebar > ul{
     display: flex;
     flex-direction: column;

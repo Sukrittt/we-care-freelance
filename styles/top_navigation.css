@@ -9,7 +9,7 @@
     display: flex;
     column-gap: 12px !important;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 #top-nav li{

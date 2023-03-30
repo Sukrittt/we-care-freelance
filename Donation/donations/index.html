@@ -5,29 +5,80 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>We Care</title>
-    <link rel="icon" href="../../assets/logo/leaf-image.png" />
+    <link rel="icon" href="../../assets/logo/leaf-image.png">
 
     <link rel="stylesheet" href="../../styles/style.css" />
-    <link rel="stylesheet" href="../../styles/header.css" />
     <link rel="stylesheet" href="../../styles/leftSideBar.css" />
     <link rel="stylesheet" href="../../styles/mainContent.css" />
+    <link rel="stylesheet" href="../../styles/header.css" />
     <link rel="stylesheet" href="../../styles/footer.css" />
     <link rel="stylesheet" href="../../styles/top_navigation.css">
-    <link rel="stylesheet" href="./styles.css" />
-    <link rel="stylesheet" href="../../styles/nav-hover.css" />
+    <link rel="stylesheet" href="../../News_Letter/styles.css">
 
-    <script src="../../js/index.js" defer></script>
+    <style>
+        .heading_2{
+            text-align: start;
+        }
+        .main-container{
+            padding-bottom: 0em;
+        }
+        .main-container section{
+            margin-bottom: 2.5em;
+        }
+
+        section ul li ul{
+            list-style-type:circle;
+            font-size: 0.8em;
+            padding-top: 5px;
+        }
+        .list-space > li{
+            padding-bottom: 10px;
+        }
+
+        .Details{
+            font-weight: bold !important;
+        }
+
+        .donation-link{
+           text-decoration: none;
+           color: rgb(0, 98, 255);
+           width: fit-content;
+        }
+
+        .card-grid{
+            margin: 2em;
+        }
+
+        section ul ul{
+            font-size: 0.9em !important;
+        }
+
+        #donation-form{
+            display: none;
+        }
+
+        button{
+            border: none;
+            padding: 10px;
+            color: white;
+            background: none;
+            cursor: pointer;
+        }
+        
+
+    </style>
   </head>
+
   <body>
     <header>
       <div class="ag-maecenas-block">
         <div class="ag-maecenas_title">
           <div class="ag-format-container">
             <p id="heading">
-              <img src="../../assets/logo/we_care.png" alt="" />
+              <img src="../../assets/logo/we_care.png" alt="">
             </p>
             <p id="tag-line">Because nothing else matters !</p>
-            <span>Reaching out in love & service...</span><br />
+            <span>Reaching out in love & service...</span><br/>
             <span>Join hands with We Care !</span>
           </div>
         </div>
@@ -219,240 +270,244 @@
         </symbol>
       </svg>
     </header>
+
     <main>
-      <div class="nav-bar">
-        <aside class="left-sidebar">
-          <ul>
-            <li id="nav-link-1">
-              <a class="nav-links">About We Care</a>
-              <img
-                class="nav-image"
-                src="https://i.postimg.cc/9fgm4vMC/right-arrow.png"
-                alt="right-arrow"
-              />
-            </li>
-            <li id="nav-link-2">
-              <a class="nav-links">Programmes</a>
-              <img
-                class="nav-image"
-                src="https://i.postimg.cc/9fgm4vMC/right-arrow.png"
-                alt="right-arrow"
-              />
-            </li>
-            <li id="nav-link-3">
-              <a class="nav-links">Pratiksha Nivas</a
-              ><img
-                class="nav-image"
-                src="https://i.postimg.cc/9fgm4vMC/right-arrow.png"
-                alt="right-arrow"
-              />
-            </li>
-            <li id="nav-link-4">
-              <a class="nav-links">Donations</a
-              ><img
-                class="nav-image"
-                src="https://i.postimg.cc/9fgm4vMC/right-arrow.png"
-                alt="right-arrow"
-              />
-            </li>
-            <li>
-              <a class="nav-links" href="./News_Letter/">Newsletters</a
-              ><img
-                class="nav-image"
-                src="https://i.postimg.cc/9fgm4vMC/right-arrow.png"
-                alt="right-arrow"
-              />
-            </li>
-            <li>
-              <a class="nav-links" href="#">Accounts</a
-              ><img
-                class="nav-image"
-                src="https://i.postimg.cc/9fgm4vMC/right-arrow.png"
-                alt="right-arrow"
-              />
-            </li>
-            <li>
-              <a class="nav-links" href="#">FAQs</a
-              ><img
-                class="nav-image"
-                src="https://i.postimg.cc/9fgm4vMC/right-arrow.png"
-                height="25px"
-                alt=""
-              />
-            </li>
-          </ul>
-        </aside>
-        <div class="nav-links-hover-section">
-          <div class="nav-item nav-item-1" id="nav-item-1" visited="false">
-            <ul>
-              <li>
-                <a class="nav-links" href="../origin/">Origin</a>
-              </li>
-              <li>
-                <a class="nav-links" href="../logo/">We Care Logo</a>
-              </li>
-              <li>
-                <a class="nav-links" href="../patrons/">Our Patrons</a>
-              </li>
-              <li>
-                <a class="nav-links" href="../principles/">Principles</a>
-              </li>
-              <li>
-                <a class="nav-links" href="../vision/">Vision and Mission</a>
-              </li>
-              <li>
-                <a class="nav-links" href="./">Founding Trustees</a>
-              </li>
-              <li>
-                <a class="nav-links" href="../present/">Present Trustees</a>
-              </li>
-              <li>
-                <a class="nav-links" href="../legal/">Legal Information</a>
-              </li>
-            </ul>
-          </div>
-          <div class="nav-item nav-item-2" id="nav-item-2" visited="false">
-            <ul>
-              <li>
-                <a class="nav-links" href="../../programmes/Education/"
-                  >Education</a
-                >
-              </li>
-              <li>
-                <a class="nav-links" href="../../programmes/Challenged/"
-                  >Challenged (Disability)</a
-                >
-              </li>
-              <li>
-                <a class="nav-links" href="../../programmes/Health_Care/"
-                  >Health Care</a
-                >
-              </li>
-              <li>
-                <a
-                  class="nav-links"
-                  href="../../programmes/Capability_building/"
-                  >Capacity Building</a
-                >
-              </li>
-              <li>
-                <a class="nav-links" href="../../programmes/Empowerment/"
-                  >Empowerment</a
-                >
-              </li>
-              <li>
-                <a class="nav-links" href="../../programmes/Relief/">Relief</a>
-              </li>
-              <li>
-                <a class="nav-links" href="../../programmes/Other/">Other</a>
-              </li>
-            </ul>
-          </div>
-          <div class="nav-item nav-item-3" id="nav-item-3" visited="false">
-            <ul>
-              <li>
-                <a class="nav-links" href="../about/">About Pratiksha Nivas</a>
-              </li>
-              <li>
-                <a class="nav-links" href="../inaugration/">Inaugration</a>
-              </li>
-              <li>
-                <a class="nav-links" href="./">Location</a>
-              </li>
-            </ul>
-          </div>
-          <div class="nav-item nav-item-4" id="nav-item-4" visited="false">
-            <ul>
-              <li><a class="nav-links" href="#">Donations</a></li>
-              <li>
-                <a class="nav-links" href="#">Memorial and Corpus Funds</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
+      <aside class="left-sidebar">
+        <ul>
+          <li>
+            <a class="nav-links" href="#">About We Care </a>
+            <img
+              class="nav-image"
+              height="15px"
+              src="../../assets/right-arrow.png"
+              alt=""
+            />
+          </li>
+          <li>
+            <a class="nav-links" href="#">Programmers </a>
+            <img
+              class="nav-image"
+              height="15px"
+              src="../../assets/right-arrow.png"
+              alt=""
+            />
+          </li>
+          <li>
+            <a class="nav-links" href="#">Pratiksha Nivas</a
+            ><img
+              class="nav-image"
+              height="15px"
+              src="../../assets/right-arrow.png"
+              alt=""
+            />
+          </li>
+          <li>
+            <a class="nav-links" href="#">Donations</a
+            ><img
+              class="nav-image"
+              height="15px"
+              src="../../assets/right-arrow.png"
+              alt=""
+            />
+          </li>
+          <li>
+            <a class="nav-links" href="#">Newsletters</a
+            ><img
+              class="nav-image"
+              height="15px"
+              src="../../assets/right-arrow.png"
+              alt=""
+            />
+          </li>
+          <li>
+            <a class="nav-links" href="#">Accounts</a
+            ><img
+              class="nav-image"
+              height="15px"
+              src="../../assets/right-arrow.png"
+              alt=""
+            />
+          </li>
+          <li>
+            <a class="nav-links" href="#">FAQs</a
+            ><img
+              class="nav-image"
+              src="../../assets/right-arrow.png"
+              height="15px"
+              alt=""
+            />
+          </li>
+        </ul>
+      </aside>
+
       <div class="main-container">
         <div id="top-nav">
           <ul class=" row list-style-none">
             <li>
-              <a href="index.html" >About</a>
+              <a href="../Education/index.html" class="active-top-nav">Donations</a>
             </li>
             <li>
-              <a href="../inaugration/index.html">Inaugration</a>
-            </li>
-            <li>
-              <a href="../location/index.html" class="active-top-nav">Location</a>
+              <a href="../Challenged/index.html">Memorial and Corpus Funds</a>
             </li>
           </ul>
         </div>
-        <div id="vision">LOCATION</div>
-        <section>
-          <p class="subheading">Address:</p>
-          <ul class="paragraph">
-            <li>Forum Mall, Koramangala ( 250m)</li>
-            <li>St Johns Hospital (150m)</li>
-          </ul>
-        </section>
 
-        <section>
-          <p class="subheading">Contact Persons:</p>
-          <p class="paragraph">
-            Fr. Trevor D'Souza - Managing Trustee: +91-9844030002
-          </p>
-          <p class="paragraph">Office Assistant: +91-9844507095</p>
-          <p class="paragraph">
-            Mail us: <a href="wecare1999@gmail.com">wecare1999@gmail.com</a>
-          </p>
-          <p class="paragraph">
-            Facebook:
-            <a href="https://www.facebook.com/wecare.bangalore"
-              >https://www.facebook.com/wecare.bangalore</a
-            >
-          </p>
+        <section class="first-child-section">
+          <span style="display:block;">DONATIONS - "Your Loving Response"</span>
         </section>
+ 
         <section>
-          <div class="image-flex-container-2">
-            <img
-              class="img-container"
-              src="../../assets/location/map.jpg"
-              alt="map"
-            />
-            <p class="pargraph" style="text-align: center">
-              <span> Proximity from landmarks </span>
-            </p>
+          <p class="paragraph">
+            <span style="text-align:center">
+                <strong class="block" >From the People Who Care!</strong>
+                <strong class="block" >For it is in giving that you will receive!</strong>
+                <p>Dear Friends, donors, benefactors and well-wishers, we are confident that you will continue to encourage our work with your generous donations and support us with your prayers. We rely on your generosity and goodwill to carry out programmes that benefit the poor and needy.
+              <p>
+            </span>
+        </section>
+    </div>
+
+    <div class="main-container" id="how-to-donate">
+        <div id="top-nav">
+            <ul class=" row list-style-none">
+              <li>
+                <button id="button-1" class="active-top-nav">
+                    How to Donate ?
+                </button>
+              </li>
+              <li>
+                <button id="button-2">
+                    Donation Forms
+                </button>
+              </li>
+            </ul>
           </div>
+        
+        <section>
+            <p class="paragraph">
+              <span style="text-align: center;">
+                <p>
+                    <strong>TAX BENEFITS FOR DONATIONS</strong>
+                </p>
+                <p>All donations to 
+                    <strong>WE CARE</strong>
+                     are eligible for tax benefits  
+                    under section 80G of the Income Tax Act, 1961.</p>
+            </span>
+            </p>
+
         </section>
 
+    </div>
+
+    <div class="main-container" id="donation-form">
+        <div id="top-nav">
+            <ul class=" row list-style-none">
+              <li>
+                <button>
+                    How to Donate ?
+                </button>
+              </li>
+              <li>
+                <button class="active-top-nav">
+                    Donation Forms
+                </button>
+              </li>
+            </ul>
+          </div>
+
         <section>
-          <p class="subheading">Registered Office:</p>
           <p class="paragraph">
-            Fr. Trevor D'Souza - Managing Trustee: +91-9844030002
-          </p>
-          <p class="paragraph">Office Assistant: +91-9844507095</p>
-          <p class="paragraph">
-            Mail us: <a href="wecare1999@gmail.com">wecare1999@gmail.com</a>
-          </p>
-          <p class="paragraph">
-            Facebook:
-            <a href="https://www.facebook.com/wecare.bangalore"
-              >https://www.facebook.com/wecare.bangalore</a
-            >
+            <div class="heading_2">DONATIONS FORMS</div>
+            <span>
+                <ul style="list-style:none;" class="card-grid">
+                    <li>
+                      <a href="Donation_Form.doc" class="donation-link card">Download Donation Form in Word Format</a>
+                    </li>
+                    <li>
+                      <a href="https://www.wecaretrust.org/images/Donation_Form.pdf" class="donation-link card">Download Donation Form in PDF Format</a>
+                    </li>
+                </ul>
+            </span>
+            <span>
+                <p>With every donation, we request you to send us your personal, donation & other details. This can be done using the following options:</p>
+            </span>
           </p>
         </section>
+        
         <section>
-          <p class="subheading">Programme Centre:</p>
-          <ul class="paragraph">
-            <li>Forum Mall, Koramangala (1km)</li>
-            <li>Udupi Gardens, BTM Layout (500m)</li>
-          </ul>
+            <p class="paragraph">
+              <span>
+                  <ul style="list-style: numbers;">
+                      <li>
+                        <span class="Details">Post</span>
+                        <ul style="list-style: lower-alpha;">
+                            <li>Please download the donation form 
+                                <a href="https://www.wecaretrust.org/images/Donation_Form.pdf" class="donation-link">click here</a>
+                            </li>
+                            <li>Send us the completed form to our registered office address or Programme Center address. For details
+                                <a href="" class="donation-link">click here</a>
+                            </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <span class="Details">Email</span>
+                        <ul style="list-style: lower-alpha;">
+                            <li>Please send us an email with the following information
+                                <ul style="list-style:disc">
+                                    <li>Full Name</li>
+                                    <li>Postal Address</li>
+                                    <li>Phone Number (Landline)</li>
+                                    <li>Mobile Number</li>
+                                    <li>Email Id</li>
+                                    <li>Amount Donated</li>
+                                    <li>Mode of Donation</li>
+                                    <li>Purpose of Donation</li>
+                                </ul>
+                            </li>
+                        </ul>
+                      </li>
+                  </ul>
+              </span>
+              <span style="text-align: center;">
+                <p>
+                    <strong>TAX BENEFITS FOR DONATIONS</strong>
+                </p>
+                <p>All donations to 
+                    <strong>WE CARE</strong>
+                     are eligible for tax benefits  
+                    under section 80G of the Income Tax Act, 1961.</p>
+            </span>
+            </p>
+
         </section>
-      </div>
+
+    </div>
+    
     </main>
+
     <footer>
       <div class="footer">
-        <img src="../../assets/logo/we_care.png" alt="logo" />
+        <img src="../../assets/logo/we_care.png" alt="">
         <span> Since 1999</span>
       </div>
     </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+    <script>
+        $(document).ready( function(){
+
+            $('#button-1').on('click', function(){
+                $("#how-to-donate").show();
+                $("#donation-form").hide();
+            });
+            $('button-2').on('click', function(){
+                $("#how-to-donate").hide();
+                $("#donation-form").show();
+            });
+        });
+    </script>
+
   </body>
 </html>

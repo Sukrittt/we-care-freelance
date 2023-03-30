@@ -22,7 +22,7 @@
     
     background-image: linear-gradient(45deg, #32b548, #34dc50ba);
     /* background: rgb(247 185 43); */
-    color: white;
+    color: white !important;
     
     /* border: 1px solid white; */
     box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);

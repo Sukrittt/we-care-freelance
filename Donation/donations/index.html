@@ -14,59 +14,9 @@
     <link rel="stylesheet" href="../../styles/footer.css" />
     <link rel="stylesheet" href="../../styles/top_navigation.css">
     <link rel="stylesheet" href="../../News_Letter/styles.css">
+    <link rel="stylesheet" href="../../styles/nav-hover.css">
+    <link rel="stylesheet" href="style.css">
 
-    <style>
-        .heading_2{
-            text-align: start;
-        }
-        .main-container{
-            padding-bottom: 0em;
-        }
-        .main-container section{
-            margin-bottom: 2.5em;
-        }
-
-        section ul li ul{
-            list-style-type:circle;
-            font-size: 0.8em;
-            padding-top: 5px;
-        }
-        .list-space > li{
-            padding-bottom: 10px;
-        }
-
-        .Details{
-            font-weight: bold !important;
-        }
-
-        .donation-link{
-           text-decoration: none;
-           color: rgb(0, 98, 255);
-           width: fit-content;
-        }
-
-        .card-grid{
-            margin: 2em;
-        }
-
-        section ul ul{
-            font-size: 0.9em !important;
-        }
-
-        #donation-form{
-            display: none;
-        }
-
-        button{
-            border: none;
-            padding: 10px;
-            color: white;
-            background: none;
-            cursor: pointer;
-        }
-        
-
-    </style>
   </head>
 
   <body>
@@ -272,82 +222,172 @@
     </header>
 
     <main>
-      <aside class="left-sidebar">
-        <ul>
-          <li>
-            <a class="nav-links" href="#">About We Care </a>
-            <img
-              class="nav-image"
-              height="15px"
-              src="../../assets/right-arrow.png"
-              alt=""
-            />
-          </li>
-          <li>
-            <a class="nav-links" href="#">Programmers </a>
-            <img
-              class="nav-image"
-              height="15px"
-              src="../../assets/right-arrow.png"
-              alt=""
-            />
-          </li>
-          <li>
-            <a class="nav-links" href="#">Pratiksha Nivas</a
-            ><img
-              class="nav-image"
-              height="15px"
-              src="../../assets/right-arrow.png"
-              alt=""
-            />
-          </li>
-          <li>
-            <a class="nav-links" href="#">Donations</a
-            ><img
-              class="nav-image"
-              height="15px"
-              src="../../assets/right-arrow.png"
-              alt=""
-            />
-          </li>
-          <li>
-            <a class="nav-links" href="#">Newsletters</a
-            ><img
-              class="nav-image"
-              height="15px"
-              src="../../assets/right-arrow.png"
-              alt=""
-            />
-          </li>
-          <li>
-            <a class="nav-links" href="#">Accounts</a
-            ><img
-              class="nav-image"
-              height="15px"
-              src="../../assets/right-arrow.png"
-              alt=""
-            />
-          </li>
-          <li>
-            <a class="nav-links" href="#">FAQs</a
-            ><img
-              class="nav-image"
-              src="../../assets/right-arrow.png"
-              height="15px"
-              alt=""
-            />
-          </li>
-        </ul>
-      </aside>
+      <div class="nav-bar">
+        <aside class="left-sidebar">
+          <ul>
+            <li id="nav-link-1">
+              <a class="nav-links">About We Care</a>
+              <img
+                class="nav-image"
+                src="https://i.postimg.cc/9fgm4vMC/right-arrow.png"
+                alt="right-arrow"
+              />
+            </li>
+            <li id="nav-link-2">
+              <a class="nav-links">Programmes</a>
+              <img
+                class="nav-image"
+                src="https://i.postimg.cc/9fgm4vMC/right-arrow.png"
+                alt="right-arrow"
+              />
+            </li>
+            <li id="nav-link-3">
+              <a class="nav-links">Pratiksha Nivas</a
+              ><img
+                class="nav-image"
+                src="https://i.postimg.cc/9fgm4vMC/right-arrow.png"
+                alt="right-arrow"
+              />
+            </li>
+            <li id="nav-link-4">
+              <a class="nav-links">Donations</a
+              ><img
+                class="nav-image"
+                src="https://i.postimg.cc/9fgm4vMC/right-arrow.png"
+                alt="right-arrow"
+              />
+            </li>
+            <li>
+              <a class="nav-links" href="../../News_Letter/index.html">Newsletters</a
+              ><img
+                class="nav-image"
+                src="https://i.postimg.cc/9fgm4vMC/right-arrow.png"
+                alt="right-arrow"
+              />
+            </li>
+            <li>
+              <a class="nav-links" href="https://docs.google.com/document/d/1uoczCfpge8NmqQaF5rVoJKAzzGjxh5mRenRlRQ54HyA/edit">Accounts</a
+              ><img
+                class="nav-image"
+                src="https://i.postimg.cc/9fgm4vMC/right-arrow.png"
+                alt="right-arrow"
+              />
+            </li>
+            <li>
+              <a class="nav-links" href="https://docs.google.com/document/d/1E6-8IYnwpchHhUwIlEge03ojjv8NKMpVu7aGiZHgZ3A/edit" target="_blank">FAQs</a
+              ><img
+                class="nav-image"
+                src="https://i.postimg.cc/9fgm4vMC/right-arrow.png"
+                height="25px"
+                alt=""
+              />
+            </li>
+          </ul>
+        </aside>
+        <div class="nav-links-hover-section">
+          <div class="nav-item nav-item-1" id="nav-item-1" visited="false">
+            <ul>
+              <li>
+                <a class="nav-links" href="../origin/">Origin</a>
+              </li>
+              <li>
+                <a class="nav-links" href="../logo/">We Care Logo</a>
+              </li>
+              <li>
+                <a class="nav-links" href="../patrons/">Our Patrons</a>
+              </li>
+              <li>
+                <a class="nav-links" href="../principles/">Principles</a>
+              </li>
+              <li>
+                <a class="nav-links" href="../vision/">Vision and Mission</a>
+              </li>
+              <li>
+                <a class="nav-links" href="./">Founding Trustees</a>
+              </li>
+              <li>
+                <a class="nav-links" href="../present/">Present Trustees</a>
+              </li>
+              <li>
+                <a class="nav-links" href="../legal/">Legal Information</a>
+              </li>
+            </ul>
+          </div>
+          <div class="nav-item nav-item-2" id="nav-item-2" visited="false">
+            <ul>
+              <li>
+                <a class="nav-links" href="../../programmes/Education/"
+                  >Education</a
+                >
+              </li>
+              <li>
+                <a class="nav-links" href="../../programmes/Challenged/"
+                  >Challenged (Disability)</a
+                >
+              </li>
+              <li>
+                <a class="nav-links" href="../../programmes/Health_Care/"
+                  >Health Care</a
+                >
+              </li>
+              <li>
+                <a
+                  class="nav-links"
+                  href="../../programmes/Capability_building/"
+                  >Capacity Building</a
+                >
+              </li>
+              <li>
+                <a class="nav-links" href="../../programmes/Empowerment/"
+                  >Empowerment</a
+                >
+              </li>
+              <li>
+                <a class="nav-links" href="../../programmes/Relief/">Relief</a>
+              </li>
+              <li>
+                <a class="nav-links" href="../../programmes/Other/">Other</a>
+              </li>
+            </ul>
+          </div>
+          <div class="nav-item nav-item-3" id="nav-item-3" visited="false">
+            <ul>
+              <li>
+                <a class="nav-links" href="../../Pratiksha_Nivas/about/"
+                  >About Pratiksha Nivas</a
+                >
+              </li>
+              <li>
+                <a class="nav-links" href="../../Pratiksha_Nivas/inaugration/"
+                  >Inaugration</a
+                >
+              </li>
+              <li>
+                <a class="nav-links" href="../../Pratiksha_Nivas/location/"
+                  >Location</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="nav-item nav-item-4" id="nav-item-4" visited="false">
+            <ul>
+              <li><a class="nav-links" href="../../Donation/donations/">Donations</a></li>
+              <li>
+                <a class="nav-links" href="../../Donation/memorial/">Memorial and Corpus Funds</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
       <div class="main-container">
         <div id="top-nav">
           <ul class=" row list-style-none">
             <li>
-              <a href="../Education/index.html" class="active-top-nav">Donations</a>
+              <a href="index.html" class="active-top-nav">Donations</a>
             </li>
             <li>
-              <a href="../Challenged/index.html">Memorial and Corpus Funds</a>
+              <a href="../memorial/">Memorial and Corpus Funds</a>
             </li>
           </ul>
         </div>
@@ -369,15 +409,19 @@
 
     <div class="main-container" id="how-to-donate">
         <div id="top-nav">
-            <ul class=" row list-style-none">
+            <ul class="row list-style-none">
               <li>
-                <button id="button-1" class="active-top-nav">
+                <button id="button-1" >
+                  <a href="" class="active-top-nav">
                     How to Donate ?
+                  </a>  
                 </button>
               </li>
               <li>
                 <button id="button-2">
+                  <a href="">
                     Donation Forms
+                  </a>  
                 </button>
               </li>
             </ul>
@@ -402,18 +446,22 @@
 
     <div class="main-container" id="donation-form">
         <div id="top-nav">
-            <ul class=" row list-style-none">
-              <li>
-                <button>
-                    How to Donate ?
-                </button>
-              </li>
-              <li>
-                <button class="active-top-nav">
-                    Donation Forms
-                </button>
-              </li>
-            </ul>
+          <ul class="row list-style-none">
+            <li>
+              <button id="button-1" >
+                <a href="">
+                  How to Donate ?
+                </a>  
+              </button>
+            </li>
+            <li>
+              <button id="button-2">
+                <a href="" class="active-top-nav">
+                  Donation Forms
+                </a>  
+              </button>
+            </li>
+          </ul>
           </div>
 
         <section>
@@ -493,5 +541,6 @@
       </div>
     </footer>
 
+    <script src="../../js/index.js" defer></script>
   </body>
 </html>

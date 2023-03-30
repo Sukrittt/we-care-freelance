@@ -229,11 +229,12 @@
               />
             </li>
             <li id="nav-link-2">
-              <a class="nav-links">Programmes</a>
+              <a class="nav-links">Programmes
+              </a>
               <img
-                class="nav-image"
-                src="https://i.postimg.cc/9fgm4vMC/right-arrow.png"
-                alt="right-arrow"
+              class="nav-image"
+              src="https://i.postimg.cc/9fgm4vMC/right-arrow.png"
+              alt="right-arrow"
               />
             </li>
             <li id="nav-link-3">
@@ -472,5 +473,17 @@
     </footer>
 
     <script src="../js/index.js"></script>
-  </body>
+
+    <!-- external script for the linksfolder location -->
+    <script>
+        if( window.innerWidth < 1200 ){
+        document.querySelector('#nav-link-1 a').setAttribute('href', '../About_We_Care/origin/');
+        document.querySelector('#nav-link-2 a').setAttribute('href', '../programmes/Education/');
+        document.querySelector('#nav-link-3 a').setAttribute('href', '../Pratiksha_Nivas/about/');
+        document.querySelector('#nav-link-4 a').setAttribute('href', '../Donation/donations/');
+      }
+
+    </script>
+
+  </body> 
 </html>

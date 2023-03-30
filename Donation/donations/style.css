@@ -1,0 +1,43 @@
+.heading_2{
+    text-align: start;
+}
+.main-container{
+    padding-bottom: 0em;
+}
+.main-container section{
+    margin-bottom: 2.5em;
+}
+
+section ul li ul{
+    list-style-type:circle;
+    font-size: 0.8em;
+    padding-top: 5px;
+}
+.list-space > li{
+    padding-bottom: 10px;
+}
+
+.Details{
+    font-weight: bold !important;
+}
+
+.donation-link{
+   text-decoration: none;
+   color: rgb(0, 98, 255);
+   width: fit-content;
+}
+
+.card-grid{
+    margin: 2em;
+}
+
+section ul ul{
+    font-size: 0.9em !important;
+}
+
+button{
+    border: none;
+    color: white;
+    background: none;
+    cursor: pointer;
+}

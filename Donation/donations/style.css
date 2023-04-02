@@ -21,10 +21,32 @@ section ul li ul{
     font-weight: bold !important;
 }
 
-.donation-link{
+.donation-link, #how-to-donate a, #mail, #info a{
    text-decoration: none;
+   font-weight: normal;
    color: rgb(0, 98, 255);
    width: fit-content;
+}
+
+#how-to-donate{
+    list-style: upper-alpha;
+}
+
+#info{
+    list-style: number;
+}
+#how-to-donate li, #info li{
+    width:fit-content;
+    text-align: start;
+    font-size: 0.9em;
+}
+
+#how-to-donate-ans >li, #info-ans > li{
+    padding-bottom: 25px;
+}
+
+.main-container .card-grid a {
+    padding: 10px;
 }
 
 .card-grid{

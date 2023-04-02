@@ -8,9 +8,6 @@
     width: 15vw;
     max-width: 20vw;
 }
-.left-sidebar:active{
-    background-color: var(--primary-color);
-}
 
 .left-sidebar > ul{
     display: flex;
@@ -43,6 +40,7 @@
 .left-sidebar > ul > li a{
     padding: .5em 1em;
     padding-right: 0px;
+    color: white;
 }
 
 .left-sidebar > ul > li:hover{

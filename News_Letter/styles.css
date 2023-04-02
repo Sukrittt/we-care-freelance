@@ -12,6 +12,9 @@
 .main-container .card-grid a{
   text-decoration: none;
 }
+.nav-bar{
+  z-index: 999;
+}
 
 /* Card UI */
 .card {
@@ -41,8 +44,4 @@
   .card:hover {
     border: 1px solid black;
     transform: scale(1.05);
-  }
-  
-  .card:active {
-    /* transform: scale(0.95) rotateZ(1.7deg); */
   }
